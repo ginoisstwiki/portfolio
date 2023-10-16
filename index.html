@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=quicksand@600,700,400,300,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <script type="module" src="./src/main.js"></script>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <a class="header__home btn" href="#">Home</a>
+          <li><button class="header__light">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+          </svg>
+          </button>
+          </svg>
+          <li class="header__line"></li>
+          </li>
+          <li><a class="header__link" href="#about">About</a></li>
+
+          <li><a class="header__link" href="#featured">Projects</a></li>
+
+          <li><a class="header__link" href="#contact">Contact</a></li>
+
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="/hero.jpg" alt="Profile picture">
+        <h2 class="hero__subtitle">Hey, my name is Gino</h2>
+        <h1 class="hero__title">Graphics Design student</h1>
+        <p class="hero__description">As a dedicated <strong>Graphic Design</strong> student, my portfolio showcases my passion for visual storytelling. I excel in <strong>branding</strong>, <strong>digital illustration</strong>, and print media, using color, typography, and composition to create captivating designs. I'm committed to growth, adaptability, and delivering memorable experiences through my work</p>
+        <a class="hero__btn btn" href="#">Reach out</a>
+      </section>
+      <section class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">Hello, my name is Gino, a <strong>graphics designer</strong> from Apeldoorn, The Netherlands. I enjoy creative work in all different kind of media. From traditional arts to digital art. From audio to visual arts. I'm very much an art enjoyer</p>
+          <p class="about__description">Even though I'm currently focusing on graphics design. My interest also lay in <strong>web development</strong>. </p>
+          <p class="about__description">I have a <strong>illustration background</strong> and had online presence on Graphics Design fora under the tag "stwiki"</p>
+          <hr class="about__hr"/>
+          <h3 class="about__subtitle">Skillset/Programs</h3>
+          <div class="about__ul-container">
+          <ul class="about__ul">
+            <li class="about__list">Adobe Photoshop</li>
+            <li class="about__list">Adobe Illustrator</li>
+
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">Adobe Indesign</li>
+            <li class="about__list">Figma</li>
+          </ul>
+        </div>
+        </div>
+        <div class="about__img-wrapper"><img class="about__img" src="/about.png" alt="Image of me(real)"></div>
+        
+      </section>
+      <section class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">TBV Lugus: Renaissance</h2>
+          <a class="featured__link" href="https://www.tbvlugus.nl/home"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/>
+          </svg>
+          </a>
+        </div>
+        <p class="featured__description">Illustration work for TBV Lugus</p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Programs</h3>
+            <ul class="featured__programs">
+              <li class="featued__info">Illustrator</li>
+              <li class="featued__info">Photoshop</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured_info">Illustration</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">January 2022 - March 2022</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img src="/preview1.png" alt="Top left preview of Lugus Illustration">
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/preview2.png" alt="Top right preview of Lugus Illustration">
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/preview3.png" alt="Bottom left preview of Lugus Illustration">
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/preview4.png" alt="Bottom right preview of Lugus Illustration">
+          </div>
+          <div class="featured__img-wrapper">
+            <img src="/preview5.png" alt="Small Preview">
+          </div>
+        </div>
+
+      </section>
+      <!-- <section></section>
+      <section></section>
+      <section></section>
+      <section></section> -->
+    </main>
+    <!-- <footer></footer> -->
+  </body>
+</html>
