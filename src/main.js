@@ -4,4 +4,5 @@ import '../components/header.css';
 import '../components/hero.css';
 import '../components/about.css';
 import '../components/featured.css';
+import '../components/work.css';
 import '../styles/utils.css';

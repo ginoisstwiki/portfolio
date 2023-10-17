@@ -32,6 +32,7 @@
   max-width: 60ch;
   font-size: var(--size-sm);
   color: var(--clr-emerald600);
+  line-height: 1.5;
 }
 
 .hero__btn {
