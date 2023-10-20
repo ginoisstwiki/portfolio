@@ -98,7 +98,7 @@
   }
   .featured__description {
     font-size: var(--size-base);
-    margin: 1.5rm 0;
+    margin: 1.5rem 0;
   }
 
   .featured__label {
@@ -145,7 +145,10 @@
   .featured__label {
     font-size: var(--size-xl);
   }
-
+  .featured__img-container {
+    grid-gap: 0.1em;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
   .featured__info {
     font-size: var(--size-lg);
   }
@@ -165,7 +168,7 @@
   }
   .featured__description {
     font-size: var(--size-xl);
-    margin: 2rm 0;
+    margin: 2rem 0;
   }
   .featured__label {
     font-size: var(--size-2xl);

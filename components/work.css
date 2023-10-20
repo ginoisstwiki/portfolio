@@ -145,7 +145,7 @@
   }
   .work__description2 {
     font-size: var(--size-sm);
-    margin: 1em;
+    margin-bottom: 1em;
   }
   .work__project-btn {
     font-size: var(--size-sm);
@@ -162,8 +162,22 @@
 }
 
 /* md */
-/* @media (min-width: 768px) {
-} */
+@media (min-width: 768px) {
+  .work__description1 {
+    font-size: var(--size-sm);
+  }
+  .work__description2 {
+    font-size: var(--size-sm);
+  }
+  .work__project-btn {
+    font-size: var(--size-sm);
+  }
+
+  .work__project-subtitle {
+    display: block;
+    font-size: var(--size-lg);
+  }
+}
 
 /* lg */
 /* @media (min-width: 1024px) {
