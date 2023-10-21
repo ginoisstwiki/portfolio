@@ -16,7 +16,7 @@
 
 .hero__subtitle {
   color: var(--clr-emerald800);
-  font: var(--size-base);
+  font-size: var(--size-base);
   line-height: 0.9;
 }
 
@@ -84,7 +84,7 @@
   }
 
   .hero__subtitle {
-    font: var(--size-2xl);
+    font-size: var(--size-2xl);
   }
 
   .hero__title {
@@ -113,11 +113,11 @@
     }
 
     .hero__subtitle {
-      font: var(--size-4xl);
+      font-size: var(--size-3xl);
     }
 
     .hero__title {
-      font-size: var(--size-9xl);
+      font-size: var(--size-8xl);
     }
 
     .hero__description {
