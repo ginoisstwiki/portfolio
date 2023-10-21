@@ -28,7 +28,7 @@
   text-decoration: none;
   letter-spacing: -0.05em;
   background-color: var(--clr-orange);
-  color: var(--clr-light);
+  color: #d1fae5;
   padding: 0.5em 1em;
   border-radius: 6px;
   border-top: 0.1em solid rgba(255, 224, 52, 0.514);
